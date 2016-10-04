@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-cleerio",
+  "version": "1.0.0",
+  "description": "Cleerio's ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "tests-only": "babel-tape-runner ./test/test-*.js",
+    "test": "parallelshell 'npm run lint' 'npm run tests-only'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleerio/eslint-config-cleerio.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "cleerio",
+    "javascript",
+    "styleguide"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cleerio/eslint-config-cleerio/issues"
+  },
+  "homepage": "https://github.com/cleerio/eslint-config-cleerio",
+  "devDependencies": {
+    "babel-tape-runner": "^1.3.1",
+    "eslint": "^2.2.0",
+    "eslint-plugin-react": "^4.0.0",
+    "react": "^0.14.7",
+    "tape": "^4.4.0",
+    "parallelshell": "^2.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^2.2.0",
+    "eslint-plugin-react": "^4.0.0"
+  }
+}
