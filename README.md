@@ -1,7 +1,5 @@
 # eslint-config-cleerio
 
-[![npm version](https://badge.fury.io/js/eslint-config-cleerio.svg)](http://badge.fury.io/js/eslint-config-cleerio)
-
 This package provides Cleerio's .eslintrc as an extensible shared config. It was forked from eslint-config-airbnb.
 
 ## Usage
