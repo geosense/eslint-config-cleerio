@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cleerio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cleerio's ESLint config",
   "main": "index.js",
   "scripts": {
@@ -26,15 +26,15 @@
   },
   "homepage": "https://github.com/cleerio/eslint-config-cleerio",
   "devDependencies": {
-    "babel-tape-runner": "^1.3.1",
-    "eslint": "^3.8.0",
-    "eslint-plugin-react": "^6.4.0",
-    "react": "^0.14.7",
-    "tape": "^4.4.0",
-    "parallelshell": "^2.0.0"
+    "babel-tape-runner": "^2.0.1",
+    "eslint": "^4.4.0",
+    "eslint-plugin-react": "^7.2.1",
+    "parallelshell": "^3.0.1",
+    "react": "^15.6.1",
+    "tape": "^4.4.0"
   },
   "peerDependencies": {
-    "eslint": "^3.8.0",
-    "eslint-plugin-react": "^6.4.0"
+    "eslint": "^4.4.0",
+    "eslint-plugin-react": "^7.2.0"
   }
 }
