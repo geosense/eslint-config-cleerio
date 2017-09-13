@@ -54,7 +54,7 @@ module.exports = {
     // specify the maximum depth callbacks can be nested
     'max-nested-callbacks': 0,
     // require a capital letter for constructors
-    'new-cap': [2, { 'newIsCap': true }],
+    "new-cap": [2, {"capIsNew": false, "newIsCap": true}], // For Record() etc.
     // disallow the omission of parentheses when invoking a constructor with no arguments
     'new-parens': 0,
     // allow/disallow an empty newline after var statement
@@ -76,7 +76,7 @@ module.exports = {
     // disallow multiple empty lines and only one newline at the end
     'no-multiple-empty-lines': [2, { 'max': 2, 'maxEOF': 1 }],
     // disallow nested ternary expressions
-    'no-nested-ternary': 2,
+    'no-nested-ternary': 0,
     // disallow use of the Object constructor
     'no-new-object': 2,
     // disallow space between function identifier and application
